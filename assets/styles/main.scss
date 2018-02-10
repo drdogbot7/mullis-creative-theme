@@ -1,0 +1,42 @@
+/*
+  Brand
+*/
+@import 'common/variables-brand';
+
+
+/*
+  Bootstrap
+*/
+@import 'common/variables-bootstrap';
+@import 'common/bootstrap';
+
+/*
+  Vendor
+*/
+@import 'common/variables-vendor';
+
+@import "~@fortawesome/fontawesome-pro-webfonts/scss/fontawesome";
+@import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-solid";
+// @import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-regular";
+// @import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-light";
+@import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-brands";
+
+@import "~social-colors-scss/dist/_social-colors";
+
+/*
+  Theme
+*/
+@import 'common/variables-theme';
+@import "common/global";
+@import "common/utility";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
